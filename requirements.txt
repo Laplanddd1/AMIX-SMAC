@@ -1,0 +1,10 @@
+numpy
+torch
+scipy
+matplotlib
+sacred
+pymongo
+pyyaml
+gym
+pygame
+# Add other dependencies as needed

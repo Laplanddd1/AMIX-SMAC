@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Results (Models and Videos)
+# Usually, we don't want to track large binary files in Git.
+# If you want to keep them, consider using Git LFS.
+results/final_models/
+results/replay_videos/
+# results/logs/
+
+# Docs
+# Ignore PDF if they are large, but usually slides/thesis are fine.
+# docs/*.pdf
+
+# OS
+.DS_Store
+Thumbs.db

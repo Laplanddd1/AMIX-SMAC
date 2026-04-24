@@ -1,0 +1,108 @@
+{
+  "artifacts": [],
+  "command": "my_main",
+  "experiment": {
+    "base_dir": "/content/pymarl/src",
+    "dependencies": [
+      "munch==2.5.0",
+      "numpy==1.23.5",
+      "pyyaml==6.0.3",
+      "sacred==0.8.2",
+      "torch==2.5.1"
+    ],
+    "mainfile": "main.py",
+    "name": "pymarl",
+    "repositories": [
+      {
+        "commit": "c971afdceb34635d31b778021b0ef90d7af51e86",
+        "dirty": true,
+        "url": "https://github.com/oxwhirl/pymarl.git"
+      },
+      {
+        "commit": "c971afdceb34635d31b778021b0ef90d7af51e86",
+        "dirty": true,
+        "url": "https://github.com/oxwhirl/pymarl.git"
+      },
+      {
+        "commit": "c971afdceb34635d31b778021b0ef90d7af51e86",
+        "dirty": true,
+        "url": "https://github.com/oxwhirl/pymarl.git"
+      }
+    ],
+    "sources": [
+      [
+        "main.py",
+        "_sources/main_6cabd990bf7f30e7e2bdde1d96015f0a.py"
+      ],
+      [
+        "run.py",
+        "_sources/run_7911ddab0b7ff30dd1480a75183ffc39.py"
+      ],
+      [
+        "utils/logging.py",
+        "_sources/logging_e6ed0d3fc973e472bc3d1186aee3bad0.py"
+      ]
+    ]
+  },
+  "heartbeat": "2026-04-23T11:13:34.446573",
+  "host": {
+    "ENV": {},
+    "cpu": "Intel(R) Xeon(R) CPU @ 2.00GHz",
+    "gpus": {
+      "driver_version": "580.82.07",
+      "gpus": [
+        {
+          "model": "Tesla T4",
+          "persistence_mode": false,
+          "total_memory": 15360
+        }
+      ]
+    },
+    "hostname": "8cf137cbef2f",
+    "os": [
+      "Linux",
+      "Linux-6.6.113+-x86_64-with-glibc2.35"
+    ],
+    "python_version": "3.11.11"
+  },
+  "meta": {
+    "command": "my_main",
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [
+        "env_args.map_name=3s5z",
+        "evaluate=True",
+        "save_replay=True",
+        "test_nepisode=1",
+        "attn_heads=1",
+        "checkpoint_path=/content/pymarl/src/results/models/amix_1head_3s5z__2026-04-23_06-50-26",
+        "load_step=396191"
+      ],
+      "help": false,
+      "with": true
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2026-04-23T11:13:24.443428",
+  "status": "RUNNING"
+}
